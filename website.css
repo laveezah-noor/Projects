@@ -20,10 +20,15 @@ ul, ol {
     margin: 0;
     padding: 0;
 }
-
+.wg ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
 .wg ul li {
     border: none;
     padding-bottom: 0;
+    margin-top: 10px !important;
     margin-bottom: 0;
     display: inline;
 }
@@ -31,15 +36,15 @@ ul, ol {
     font-size: 13px;
     height: 30px;
     line-height: 30px;
-    margin: 0px 7px 0px 0;
+    margin: 0px 10px 0px 0;
     width: 30px;
 }
 .fa{
     display: inline-block;
+    color: #ffffff;
 }
 .topbuttons{
     padding: 0 0 5px 0;
-    width: fit-content !important;
 }
 .message{
     color: white;
@@ -56,7 +61,7 @@ ul, ol {
     display: inline-block;
 }
 ul{
-    margin-top: ;
+    /* margin-top: ; */
 }
 .btn-flat{
     border-radius: 0;
@@ -116,6 +121,9 @@ h1, h2 {
 span.green{
     color: #427900;
 }
+.text-white{
+    color: #ffffff !important;
+}
 .intro{
     height: 40px;
 }
@@ -132,6 +140,9 @@ span.green{
 }
 .greens{
     color: #00FF00;
+}
+.p-0{
+    padding: 0 !important;
 }
 .box{
     background-color: white;
@@ -231,7 +242,7 @@ li.icon{
 }
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:#F7F8FA;
 }
   
 #navbar a {
@@ -251,9 +262,7 @@ li.icon{
     background-color: #316dc3;
     color: white;
 }
-#images img.hover {
-    background-color: #ffffffb2;
-}
+
 .gallery-isotope .gallery-item .icons-holder {
     position: absolute;
     top: 0%;
@@ -266,4 +275,14 @@ li.icon{
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+.col{
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
